@@ -50,6 +50,10 @@ if GetDepend(['RT_USING_SDIO']):
 if GetDepend(['RT_USING_SPI']):
     src += ['Src/stm32h7rsxx_hal_spi.c']
 
+# I2S Support for Audio
+src += ['Src/stm32h7rsxx_hal_i2s.c']
+src += ['Src/stm32h7rsxx_hal_i2s_ex.c']
+
 # if GetDepend(['RT_USING_CAN']):
 #     src += ['STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c']
 

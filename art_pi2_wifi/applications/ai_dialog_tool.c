@@ -25,7 +25,6 @@ static rt_bool_t dialog_initialized = RT_FALSE;
 static int ai_dialog_init(void)
 {
     ai_chat_config_t chat_config;
-    ai_service_config_t tts_config;
     int ret;
     
     if (dialog_initialized)

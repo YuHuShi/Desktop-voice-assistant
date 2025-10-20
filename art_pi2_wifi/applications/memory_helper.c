@@ -17,7 +17,7 @@
 /* 获取可用内存信息 */
 static void show_memory_info(void)
 {
-    rt_uint32_t total, used, max_used;
+    rt_size_t total, used, max_used;
     
     rt_memory_info(&total, &used, &max_used);
     
